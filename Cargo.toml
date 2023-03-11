@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "app",
+    "bsp",
+    "stm32g474-hal",
+    "interfaces-hal"
+]

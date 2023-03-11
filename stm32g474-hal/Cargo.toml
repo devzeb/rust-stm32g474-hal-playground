@@ -1,0 +1,13 @@
+[package]
+name = "stm32g474-hal"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+interfaces-hal = { path = "../interfaces-hal" }
+
+[dependencies.stm32g4]
+version = "0.15.1"
+features = ["stm32g474"]
