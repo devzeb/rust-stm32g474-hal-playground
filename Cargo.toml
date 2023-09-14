@@ -1,8 +1,8 @@
 [workspace]
-
 members = [
     "app",
-    "bsp",
+    "bsp_stm32g474",
     "stm32g474-hal",
-    "interfaces-hal"
+    "interfaces-hal",
+    "bsp_interface_demoapp"
 ]
