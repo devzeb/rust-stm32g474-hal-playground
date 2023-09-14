@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/bsp/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/interfaces-hal/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/stm32g474-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bsp_interface_demoapp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bsp_stm32g474/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
