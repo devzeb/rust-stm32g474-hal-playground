@@ -1,0 +1,15 @@
+[package]
+name = "bsp_stm32g474"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+stm32g474-hal = { path = "../stm32g474-hal" }
+interfaces-hal = { path = "../interfaces-hal" }
+bsp_interface_demoapp = { path = "../bsp_interface_demoapp" }
+
+[dependencies.stm32g4]
+version = "0.15.1"
+features = ["stm32g474"]
